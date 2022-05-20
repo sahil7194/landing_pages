@@ -1,0 +1,29 @@
+Weekly report
+----------------------
+SELECT 
+  SUM(total) AS total, 
+  CONCAT
+  (
+    STR_TO_DATE(CONCAT(YEARWEEK(created_date, 2), ' Monday'), '%X%V %W'),
+    ' to ',
+    STR_TO_DATE(CONCAT(YEARWEEK(created_date, 2), ' Monday'), '%X%V %W') + INTERVAL 6 DAY
+  ) AS week
+FROM orders
+GROUP BY YEARWEEK(created_date, 1)
+ORDER BY YEARWEEK(created_date, 1);
+
+
+Weekly report between dates
+----------------------
+SELECT 
+  SUM(total) AS total, 
+  CONCAT
+  (
+    STR_TO_DATE(CONCAT(YEARWEEK(created_date, 2), ' Monday'), '%X%V %W'),
+    ' to ',
+    STR_TO_DATE(CONCAT(YEARWEEK(created_date, 2), ' Monday'), '%X%V %W') + INTERVAL 6 DAY
+  ) AS week
+FROM orders
+WHERE created_date BETWEEN 2019-09-23 AND 2019-09-29
+GROUP BY YEARWEEK(created_date, 1)
+ORDER BY YEARWEEK(created_date, 1);

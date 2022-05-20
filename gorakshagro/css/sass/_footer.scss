@@ -1,0 +1,201 @@
+/*-------------------------------------------------------*/
+/* Footer Type-1
+/*-------------------------------------------------------*/
+
+.footer-widgets {
+  padding: 80px 0;
+
+  & h5 {
+    margin-bottom: 16px;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+  }
+
+  & a {
+    color: #c2c9cc;
+  }
+}
+
+.container-fluid .footer-widgets > .row > div[class^="col"] {
+  padding: 0 40px;
+}
+
+.footer-widgets a:hover,
+.copyright a:hover,
+.footer-entry .entry-meta li a:hover,
+.bottom-footer-links li a:hover {
+  color: $main-color;
+}
+
+.footer-get-in-touch {
+  & p {
+    margin-bottom: 7px;
+    font-size: 14px;
+  }
+
+  & i {
+    font-size: 15px;
+    color: #5a5b5f;
+    margin-right: 5px;
+  }
+}
+
+.footer-address {
+  margin-bottom: 24px;
+  line-height: 26px;
+}
+
+.footer.bg-dark {
+
+  .entry-list ul > li {
+    border-bottom: 1px solid #40434a;
+
+    & .entry-meta li,
+    & .entry-meta li a {
+      color: #848890;
+      font-size: 12px;
+    }
+  }
+
+}
+
+
+.recent-works {
+  margin-top: 29px;
+
+  & li {
+    position: relative;
+    float: left;
+    margin: 0 12px 12px 0;
+    background-color: $bg-dark;
+    @include border-radius(4px);
+    overflow: hidden;
+
+    & img {
+      @include transition ($all);
+      @include border-radius(4px);
+      width: 60px;
+      height: 60px;
+    }
+
+    &:hover img {
+      opacity: 0.4;
+    }
+  }
+
+}
+
+
+.bottom-footer {
+  background-color: #1e2023;
+  padding: 19px 0;
+
+  & .social-icons a {
+    margin-bottom: 0;
+  }
+}
+
+.copyright {
+  & span {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 32px;
+  }
+
+  & a {
+    color: $text-color;
+  }
+}
+
+
+/*-------------------------------------------------------*/
+/* Footer Type-2
+/*-------------------------------------------------------*/
+
+.footer-type-2 {
+  padding: 100px 0;
+}
+
+.footer-extra-links {
+  margin-top: 50px;
+
+  li {
+    display: inline-block;
+    padding: 0 10px;
+  }
+}
+
+/*-------------------------------------------------------*/
+/* Footer Type-3
+/*-------------------------------------------------------*/
+
+.footer-map {
+  background: url(../img/footer_map.png) no-repeat;
+}
+
+.entry-li:first-child,
+.footer-links li:first-child {
+  padding-top: 0 !important;
+}
+
+.entry-li:last-child,
+.footer-links li:last-child {
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+}
+
+.footer-links ul > li {
+  padding: 8px 0;
+  border-bottom: 1px solid #40434a;
+}
+
+.post-small img {
+  width: auto;
+  @include border-radius(4px);
+}
+
+.entry-list .entry-img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+input[type="email"].newsletter-input {
+  border-color: #40434a;
+
+  &:focus {
+    border-color: $main-color;
+  }
+}
+
+.newsletter-submit {
+  width: 100%;
+}
+
+
+.footer-payment-systems {
+
+  i {
+    font-size: 26px;
+    vertical-align: middle;
+    line-height: 32px;
+  }
+}
+
+
+/*-------------------------------------------------------*/
+/* Footer Type-4
+/*-------------------------------------------------------*/
+
+.footer-type-4 {
+
+  .footer-widgets {
+    padding: 100px 0;
+  }
+
+  & .footer-get-in-touch p {
+    margin-bottom: 0;
+  }
+  
+}

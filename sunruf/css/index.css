@@ -1,0 +1,81 @@
+.form-contianer
+{
+	margin-left: 60px;
+	margin-top: 3000px;
+	height: 650px;
+	margin-bottom: 60px;
+	width: 1400px;
+	position: relative;
+	padding: 20px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+.form-contianer h1
+{
+	text-align: center;
+	font-size: 40px;
+	text-decoration-style: wavy;
+}
+.form-contianer p
+{
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: 20px;
+	font-size: 20px;
+	color: balck;
+}
+.form-contianer table
+{
+	background: #f5f5f5;
+	width: 100%;
+}
+.form-contianer table tr td
+{
+	padding: 10px;
+}
+.form-contianer table input[type='text']
+{
+	margin-left: 40px;
+	width: 250px;
+	padding: 8px;
+	padding-bottom: 0px;
+}
+.form-contianer table input[type='email']
+{
+	margin-left: 40px;
+	width: 250px;
+	padding: 8px;
+	padding-bottom: 0px;
+}
+.form-contianer table input[type='number']
+{
+	margin-left: 40px;
+	width: 250px;
+	padding: 8px;
+	padding-bottom: 0px;
+}
+.form-contianer table select 
+{
+	display: block;
+	width: 290px;
+	margin-left: 30px;
+}
+.form-contianer table textarea
+{
+	resize: none;
+	padding: 10px;
+	height: 100px;
+	width: 600px;
+	margin-left: 20px;
+}
+.form-contianer table input[type='submit']
+{
+	align-items: center;
+	border: none;
+	width: 150px;
+	height: 50px;
+	margin-left: 850px;
+	font-size: 25px;
+	border-radius: 30px;
+	margin-bottom: 30px;
+}

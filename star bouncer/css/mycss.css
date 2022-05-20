@@ -1,0 +1,252 @@
+
+.logo_img
+{
+	max-width: 80px;
+    float: left;
+    padding-right: 10px;
+}
+.navbar-brand
+{
+	color: #FFF !important;
+	padding: 0 !important;
+	float: inherit;
+}
+.h4
+{
+	color: #607D8B;
+}
+.logo_name
+{
+	color: white !important;
+	width: 400px;
+	padding-top: 5px;
+}
+.p
+{
+	color: white !important;
+}
+.callaction_head
+{
+	border-bottom: 1px solid;
+    border-bottom-color: rgb(2, 119, 189);
+    padding-bottom: 5px;
+    color: white;
+}
+.hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    border-top: 1px solid red;
+}
+.icon
+{
+	margin-bottom: 5px;
+}
+.overlay-img
+{
+	color: white;
+	padding: 5px 8px 5px 5px;
+}
+header
+{
+	/*position: fixed;*/
+    top: 0;
+    z-index: 11;
+    width: 100%;
+    box-shadow: rgb(2, 119, 189) 0px 2px 15px;
+}
+#featured
+{
+	margin-top: 10px;
+}
+.dropdown-menu
+{
+	background-color: #E3F2FD !important;
+}
+.dropdown-menu li a
+{
+	color: black;
+	font-weight: bold !important;
+}
+/*.............................................................................................................*/
+/*.............................................................................................................*/
+
+@media (min-width: 786px)  and (max-width: 979px){
+	header
+	{
+		position: fixed;
+    	top: 0;
+    	z-index: 11;
+    	width: 100%;
+	}
+}
+@media (min-width: 480px)  and (max-width: 767px){
+	.logo_name
+	{
+		width: auto;
+	}
+	header
+	{
+		position: inherit;
+	}
+	#featured
+	{
+		margin-top: auto;
+	}
+	.dropdown-menu
+	{
+		background-color: #fbfbfb !important;
+		color: black !important;
+	}
+	.dropdown-menu li a
+	{
+		font-size: smaller !important;
+		padding-left: 15px !important;
+		font-weight: 400 !important;
+	}
+	.dropdown-menu li a:hover
+	{
+		color: white !important;
+	}
+	.navbar-collapse
+	{
+		max-height: 540px !important;
+	}
+}
+@media (max-width: 360px){
+	.logo_name
+	{
+		width: auto;
+	}
+	header
+	{
+		position: inherit;
+	}
+	#featured
+	{
+		margin-top: auto;
+	}
+	.dropdown-menu
+	{
+		background-color: #fbfbfb !important;
+		color: black !important;
+	}
+	.dropdown-menu li a
+	{
+		font-size: smaller !important;
+		padding-left: 15px !important;
+		font-weight: 400 !important;
+		white-space: pre-line;
+	}
+	.dropdown-menu li a:hover
+	{
+		color: white !important;
+	}
+	.navbar-collapse
+	{
+		max-height: 540px !important;
+	}
+}	
+/*.................................................................................................................*/
+/*.................................................................................................................*/
+.box-gray h5
+{
+	text-align: center;
+}
+
+/* scroll to down */
+.scrolldown{
+    position:fixed;
+	width:32px;
+	height:32px;
+    bottom:50px;
+    left:650px;
+	background: #222;
+}
+
+a.scrolldown {
+	outline:0;
+	text-align: center;
+}
+
+a.scrolldown:hover,a.scrolldown:active,a.scrolldown:focus {
+	opacity:1;
+	text-decoration:none;
+}
+a.scrolldown i {
+	margin-top: 10px;
+	color: #fff;
+}
+a.scrolldown i:hover {
+	text-decoration:none;
+}
+.tag_line
+{    text-transform: none;
+    font-family: monospace;
+    color: chartreuse;
+}
+.red_text
+{
+	color: red;
+	font-weight: bold;
+}
+.abt_img_div
+{
+	/*background-color: #0B1121;*/
+    width: 60px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+.abt_img_div img
+{
+	max-width: 100%;
+}
+.justify p
+{
+	text-align: justify;
+}
+
+.services_ul
+{
+	margin-left: 5px;
+}
+.services_ul a
+{
+	text-decoration: none;
+	cursor: pointer;
+	color: inherit;
+}
+.services_ul a:hover
+{
+	color: red;
+}
+.services_ul li
+{
+	list-style-type: none;
+	line-height: 1.8;
+}
+.services_ul li i , h4 i
+{
+	margin-right: 5px;
+}
+.heading-h1 hr
+{
+	margin: 0;
+}
+.heading-h1 h1
+{
+	font-size: x-large;
+}
+.footer-list
+{
+	list-style-type: disc;
+}
+.footer-list li
+{
+	list-style-type: square !important;
+    list-style-position: inside !important;
+}
+.footer-list li a:hover
+{
+	font-weight: 700;
+}

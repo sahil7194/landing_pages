@@ -1,0 +1,299 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.circle-testimonial-item img, .list-testimonial-item img {
+    height: auto;
+    width: 100%;
+}
+.cta-btn {
+    padding: 8px 18px;
+}
+.footer-widget-title, .footer-featured-blog h4 {
+    font-size: 17px;
+}
+.header-top-area {
+    font-size: 13px;
+}
+.main-menu li a {
+    font-size: 12px;
+    padding: 22px 12px;
+}
+.main-menu li:hover ul {
+    top: 72px;
+}
+.main-menu li ul li a {
+    font-size: 12px;
+}
+.dentalofic-cta-area h2 {
+    font-size: 22px;
+}
+.single-slide-item h2 {
+    font-size: 50px;
+} 
+.site-footer, .site-footer p, .site-footer ul li {
+    font-size: 12px;
+    line-height: 1.5;
+}
+.testimonial-slider-wrapper h3 {
+    width: 82%;    
+}
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.about-us-section, .about-us-section .text-right, .footer-copyright-area, .footer-menu ul, h3.widget-title, .header-top-area, .header-top-area .text-right, .logo, .main-menu ul, .dentalofic-breadcrumb .text-left, .dentalofic-breadcrumb .text-right, .dentalofic-cta-area, .dentalofic-cta-area .text-right, .single-slide-item {
+    text-align: center;
+}
+.about-us-section i.fa {
+    padding: 10px 0px;  
+}
+.blog-preview {
+    height: 140px;
+}
+.blue-area, .green-area, .red-area {
+    padding: 15px 20px;
+}
+.circle-testimonial-item img, .list-testimonial-item img {
+    height: auto;
+    width: 100%;
+}
+.comments-area {
+    text-align: center;
+}
+.comment-item img {
+    display: block;
+    margin: 10px auto;
+}
+.footer-logo {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+}
+.featured-blog, .footer-featured-blog {
+    clear: both;
+    display:table;
+    margin: 0 auto 10px auto;
+    text-align: left;
+}
+.footer-top-area {
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.footer-widget {
+    padding: 30px 0;
+    text-align: center;
+}
+.header-search-bar {
+    display: none;
+} 
+.list.blog-preview {
+    height: 220px;
+}
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+.main-menu li a {
+    font-size: 13px;
+    padding: 20px 10px;
+}
+.main-menu li:hover ul {
+    top: 68px;
+}
+.owl-nav {
+    visibility:visible;
+}
+.owl-carousel:hover .owl-nav {
+    visibility:visible;
+}
+.padding-left-30 {
+    margin-top: 30px;
+}
+.dentalofic-content-block {
+     padding: 40px 0;
+}
+.dentalofic-cta-area {
+    padding: 40px 0 50px;
+}
+.dentalofic-cta-area .cta-btn {
+    margin-top: 15px;
+}
+.dentalofic-learning-center {
+    border: none;
+    padding-bottom: 5px;
+}
+.single-blog-item h3 {
+    font-size: 18px;
+}
+.single-service-item > h3 a {
+    font-size: 20px;
+}
+.single-slide-item p {
+    margin: 0 auto;
+    width: 78%;
+}
+.service-item-bg {
+  height: 130px;
+}
+.spacer-70 {
+    height: 15px;
+}
+.testimonial-slider-wrapper h3 {
+    width: 82%;    
+}
+.widget ul {
+    padding: 20px;
+    text-align: center;
+}
+.widget li::before {
+    content: none;
+}
+.zero-padding {
+    padding: 0;
+}
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+.about-us-section, .about-us-section .text-right, .circle-testimonial-item h4, .circle-testimonial-item p, .footer-copyright-area, .footer-menu ul, h3.widget-title, .homepage-slides .owl-nav, .header-top-area, .header-top-area .text-right, .list-testimonial-item h4, .list-testimonial-item p, .logo, .main-menu ul, .dentalofic-breadcrumb .text-left, .dentalofic-breadcrumb .text-right, .dentalofic-btn, .dentalofic-cta-area, .dentalofic-cta-area .text-right, .single-slide-item, .testimonial-slides .owl-nav {
+    text-align: center;
+}
+.about-us-section i.fa {
+    padding: 10px 0px;  
+}
+.circle-testimonial-item img, .list-testimonial-item img {
+    margin-bottom: 25px;
+}
+.comments-area {
+    text-align: center;
+}
+.comment-item img {
+    display: block;
+    margin: 10px auto;
+}
+.featured-blog, .footer-featured-blog {
+    clear: both;
+    display:table;
+    margin: 0 auto 10px auto;
+    text-align: left;
+}
+.footer-logo {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 200px;
+}
+.footer-widget {
+    padding: 30px 0;
+    text-align: center;
+}
+.homepage-slides .owl-controls {
+    background-color: #333333;
+    border-bottom: 3px solid #3498DB;
+}
+.homepage-slides .owl-nav div, .testimonial-slides .owl-nav div {
+    display: inline-block;
+    margin: 0;
+    opacity: 1;
+    position: relative;
+}
+.homepage-slides .owl-nav div.owl-next, .homepage-slides .owl-nav div {
+    left: auto;
+    margin: 5px 30px;
+    right: auto;
+}
+.logo {
+    display: inline-block;
+    margin: 0;
+    width: 50%;
+}
+.main-menu, .header-search-bar {
+    display: none;
+}
+.header-top-area{font-size:12px;}
+.owl-carousel .owl-nav .owl-prev {
+	height:25px; width:25px;font-size:15px;
+}
+.owl-carousel .owl-nav .owl-next {
+	height:25px; width:25px;font-size:15px;
+}
+.owl-carousel:hover .owl-nav {
+    visibility:visible;
+}
+.padding-left-30 {
+    margin-top: 30px;
+}
+.dentalofic-content-block {
+  padding: 40px 0;
+}
+.dentalofic-learning-center {
+    border: none;
+    padding-bottom: 5px;
+}
+.responsive-menu-wrap {
+    display: block;
+    margin-top: -16px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+}
+.responsive-menu-wrap .slicknav_menu {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    margin: 0;
+    padding: 0;
+}
+.review-stars.text-right {
+    text-align: center;    
+}
+.single-service-item {
+    margin-bottom: 30px;
+}
+.single-slide-item {
+    height: 450px;
+    font-size: 17px;
+}
+.single-slide-item h2 {
+    font-size: 35px;
+}
+.slicknav_nav {
+    background: #333333 none repeat scroll 0 0;
+    border-radius: 2px;
+    position: relative;
+    width: 200px;
+    z-index: 99
+}
+.slicknav_btn, .slicknav_nav a, .slicknav_collapsed.slicknav_parent a, .slicknav_parent.slicknav_open a {
+    margin:0;
+}
+.slicknav_nav a:hover, .slicknav_collapsed.slicknav_parent a:hover, .slicknav_parent.slicknav_open a:hover {
+    background-color: #3498DB;
+    border-radius: 0px;
+    color: #ffffff;
+}
+.slicknav_menu .current_page_item > a {
+    background-color: #3498DB;
+}
+.spacer-70 {
+    height: 15px;
+}
+.testimonial-slides .owl-nav div.owl-next, .testimonial-slides .owl-nav div {
+    left: auto;
+    margin: 25px 30px 5px 30px;
+    right: auto;
+}
+.widget ul {
+    padding: 20px;
+    text-align: center;
+}
+.widget li::before {
+    content: none;
+}
+.zero-padding {
+    padding: 0;
+}
+    
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}

@@ -1,0 +1,79 @@
+.logo
+{
+	height: 150px;
+	width: 150px;
+}
+#banner
+{
+	height: 620px;
+	display: block;
+	border: 1px solid red;
+}
+#product
+{
+	height: 400px;
+	
+}
+#about
+{
+	height: 590px;
+	
+}
+#about img
+{
+	height: 500px;
+	width: 520px;
+	margin: 10px;
+}
+#about p 
+{
+	padding: 20px;
+	border: 1px solid red;
+	line-height: 40px;
+	font-size: 16px;
+}
+
+#gallery
+{
+	height: 960px;
+	
+}
+#gallery img 
+{
+	height: 250px;
+	width: 300px;
+	margin: 10px 30px 10px 30px;
+}
+#contact_us
+{
+	height: 500px;
+	
+}
+.cart
+{
+	
+}
+#time
+{
+	margin-top: 20px;
+}
+#time h3,#time h5
+{
+	font-family: 'Noto Sans Devanagari', sans-serif;
+}
+#contact_us h3 , #contact_us h3
+{
+	font-family: 'Noto Sans Devanagari', sans-serif;
+}
+address
+{
+	font-family: 'Noto Sans Devanagari', sans-serif;
+	font-size: 18px;
+}
+
+#contact_us address h5
+{
+	margin-top: 25px;
+	margin-bottom: -20px;
+}
+

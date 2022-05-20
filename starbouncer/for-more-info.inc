@@ -1,0 +1,3 @@
+	<center><h4><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i> Making you feel secure – Is our Goal and Objective  <i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></h4></center>
+					<h5 style="color: #353535;">We provide our services in cities : Pune, Lonavala, Nagpur, Aurangabad, Ahmednagar, Nashik, Kolhapur, Satara, Goa,  Mumbai</h5>
+					<h5 style="background-color: #FF9800;color: #fcfcfc;padding: 5px 10px;">For More Information call - <a style="color:white;" href="tel:+919657861612">+91 9657861612 </a> / <a style="color:white;" href="tel:+919923311612"> +91 9923311612</a> or email at &nbsp;<a style="color:white;" href="mailto:starbouncers@gmail.com" style="color: #428bca;">starbouncers@gmail.com</a></h5>

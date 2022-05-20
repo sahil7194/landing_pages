@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body
+{
+  background-color: #f5f5f5;
+}
+/* Style tab links */
+.tablink1 {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink1:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 38px 20px;
+  height: 100%;
+}
+.tabcontent h3 
+{
+  font-size: 28px;
+  font-weight: bold;
+}
+.content
+{
+  width: 40%;
+  float: left;
+  padding: 10px;
+  line-height: 30px;
+  font-size: 18;
+}
+.img
+{
+  width: 58%;
+  float: left;
+}
+.img img
+{
+  width: 80%;
+  width: 80%;
+}
+
+</style>
+</head>
+<body>
+<button class="tablink1" onclick="openPage('roof', this, 'red')" id="defaultOpen">Solar Rooftop Solution</button>
+<button class="tablink1" onclick="openPage('epc', this, 'green')" id="defaultOpen">Solar EPC Solution</button>
+
+<div id="roof" class="tabcontent">
+  <h3>Solar Rooftop Solution</h3>
+  <p> 
+    <div class="content">
+      Rooftop Solution -
+      Limitless Energy -<br>
+      Solar energy is a non-conventional energy source which is unlimited. Everyday we get
+      more solar energy than our requirement. We can store it & use it as per our
+      requirement.<br>
+      Savings on Electricity Bill -<br>
+      After installing solar panels you pay less electricity bills & it also reduces the
+      dependency of the power grid.<br>
+      Reduces your carbon footprint -<br>
+      Use of fossil fuels, wood increases the CO2 in the environment, solar doesn’t release
+      harmful emission of CO2<br>
+    </div>
+    <div class="img">
+      <img src="images/solaer-gif1.gif">
+    </div>
+  </p>
+</div>
+
+<div id="epc" class="tabcontent">
+  <h3>Solar EPC Solution</h3>
+  <p>
+    <div class="content">
+        The SunRuf Solar turnkey EPC is to work on the entire project from site observation to
+        designing, engineering, procurement according to project site & installation of Solar
+        panels. We install solar panels on Ground, Rooftop & distributed. We also work on
+        CAPEX & OPEX projects.
+    </div>
+    <div class="img">
+      <img src="images/solaer-gif2nd-1.gif">
+    </div>
+  </p> 
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 

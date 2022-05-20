@@ -1,0 +1,35 @@
+*
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+.navbar
+{
+	border: 1px solid black;
+	height: 200px;
+}
+.websitelogo
+{
+	border: 1px solid black;
+	float: left;
+	width: 350px;
+	height: 200px;
+}
+.navlink
+{
+	border: 1px solid black;
+	float: left;
+	margin-top: 130px;
+	margin-left: 20px;
+	height: 50px;
+	padding: 10px 10px 10px 10px;
+	width: 1140px;
+}
+.navlink  ul li
+{
+	display: inline-block;
+	margin: 0px 10px 0px 10px;
+	font-size: 1.6em;
+	border: 1px solid black;
+	width: 130px;
+}
